@@ -1,0 +1,80 @@
+\documentclass[FP,DP]{tulthesis}
+% tento dokument používá balíky specifické pro XeLaTeX a lze jej přeložit
+% jen XeLaTeXem, nemáte-li instalována použitá (komerční) písma, změňte
+% nebo vymažte příkazy \set...font na následujících řádcích
+
+%Lorem Ipsum
+\usepackage{blindtext}
+\usepackage[obeyFinal]{easy-todo}
+
+
+\newcommand{\verze}{1.3}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{czech}
+
+% fonty
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+%\setmainfont[Mapping=tex-text,BoldFont={* Bold},Numbers=OldStyle]{Baskerville 10 Pro}
+%\setsansfont[Mapping=tex-text,BoldFont={* Bold},Numbers=OldStyle]{Myriad Pro}
+%\setmonofont[Scale=MatchLowercase]{Vida Mono 32 Pro}
+
+% příkazy specifické pro tento dokument
+\newcommand{\argument}[1]{{\ttfamily\color{\tulcolor}#1}}
+\newcommand{\prikaz}[1]{\argument{\textbackslash #1}}
+\newenvironment{myquote}{\begin{list}{}{\setlength\leftmargin\parindent}\item[]}{\end{list}}
+\newenvironment{listing}{\begin{myquote}\color{\tulcolor}}{\end{myquote}}
+\sloppy
+
+% deklarace pro titulní stránku
+\TULtitle{Programování v pregraduální přípravě učitelů informatiky}{tulthesis \LaTeX\ class version~\verze}
+\TULprogramme{N2612}{Elektrotechnika a informatika}{Electrotechnology and informatics}
+\TULbranch{1802T007}{Informační technologie}{Information technology}
+\TULauthor{Bc. Ondřej Vraštil}
+\TULsupervisor{Mgr. Jan Berki, Ph.D.}
+\TULyear{2016}
+
+\begin{document}
+
+\ThesisStart{male}
+
+\begin{abstractCZ}
+Tato zpráva popisuje třídu \texttt{tulthesis} pro sazbu absolventských prací
+Technické univerzity v~Liberci pomocí typografického systému \LaTeX.
+\end{abstractCZ}
+
+\vspace{2cm}
+
+\begin{abstractEN}
+This report describes the \texttt{tulthesis} package for Technical university of
+Liberec thesis typesetting using the \LaTeX\ typographic system.
+\end{abstractEN}
+
+\clearpage
+
+\begin{acknowledgement}
+Rád bych poděkoval všem, kteří přispěli ke vzniku tohoto dílka.
+\end{acknowledgement}
+
+\tableofcontents
+
+\clearpage
+
+\begin{abbrList}
+\textbf{TUL} & Technická univerzita v~Liberci \\
+\end{abbrList}
+
+\chapter{Úvod}
+\todo{Dopsat úvod}
+
+Nedilnou součastí pripravy budoucich ucitelu informatiky na zakladnich a strednich  je vyuka programovani a algoritmizace. Toto téma je nejen součástí rámcových vzdělávacíh programů pro gymnazia, ale stává se i moderním trendem vyučovaní informatiky na základních školách. Ucitel můze znalosti vyuzit nejen pri vyuce samotného programovani, ale i v pridruzenych oblastech jako v robotice nebo v pocitacove vede, ktera se v ruznych formach zacina na nasich zakladnich a strednich skolach objevovat. Nutnou podminkou spravně provedené didaktické transformace látky směrem  k zakovi je nadhled a vzdelani ucitele. Jednou z hlavnich premis je kvalitni vzdělani v ramci pregradualní pripravy, ve ktere by měl student – budouci učitel získat uvod do tématu a vhled do tématu natolik, aby dokazal obstojně predat znalosti svym zakum. Na kvalitu pregraduální pripravy ma vliv mnoho aspektu, jednim z nich je i relevance a aktualita, které mají pro informatiku, jakožto mladý a dynamicky se rozvíjející obor velký význam. Fakulty připravující učitele informatiky by měli pružně reagovat na moderni trendy ve výuce a uspokojit poptavku po kvalifikovaných učitelích.  V dnesni době se na našich zakladnich a strednich skolach zacinaji vyucivat pro školni prostredi nova temata jako je robotika nebo unplugged teaching, pro která je znalost algoritmizace nutná. Jak si naše vysoké školy vedou ve výuce tohoto oboru? Následují moderní trendy a požadavky zaměstnavatelů budoucích absolventů? Je pořadí předmětů během studia smysluplné? Dá se vysledovat podobnost mezi programy napříč republikou? Existuje  jeden nejvhodnější způsob jak učit programovaní budoucí učitele, nebo je možnost volit z více cest? Abychom tyto otázky mohli zodpovědět, je v první řadě nutné pokusit se analyzovat zdroje týkající se programování a pregraduální přípravy učitelů. Dále je potřeba získat data o obsahu jednotlivých předmětů v rámci pregraduální přípravy napříč fakultami v ČR. Fakulty tyto data zveřejňují v sylabech, které jsou volně k dispozici na stránkách jednotlivých fakult. Tyto data budou podrobeny obsahové analýze a podle klíčových slov získaných z předchozího výzkumu porovnány. 
+
+
+\chapter{Závěr}
+\textcolor{gray}{\Blindtext}
+
+
+
+\end{document}

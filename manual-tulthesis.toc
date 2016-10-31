@@ -1,4 +1,4 @@
 \select@language {czech}
 \contentsline {section}{Seznam zkratek}{8}{Doc-Start}
-\contentsline {chapter}{\numberline {1}Úvod}{9}{chapter.1}
-\contentsline {chapter}{\numberline {2}Závěr}{10}{chapter.2}
+\contentsline {chapter}{\numberline {1}Úvod}{10}{chapter.1}
+\contentsline {chapter}{\numberline {2}Závěr}{11}{chapter.2}

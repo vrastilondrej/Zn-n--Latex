@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.10.31)  31 OCT 2016 14:34
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.10.31)  31 OCT 2016 14:38
 entering extended mode
 **./manual-tulthesis.tex
 (manual-tulthesis.tex
@@ -878,9 +878,19 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ] [8
 
 ]
-Kapitola 1.
-[9
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+|\EU1/lmss/bx/n/17.28 ToDo|
+ []
 
+(manual-tulthesis.lod)
+\tf@lod=\write5
+\openout5 = `manual-tulthesis.lod'.
+
+ [9
+
+]
+Kapitola 1.
+[10
 
 ]
 Kapitola 2.
@@ -904,7 +914,7 @@ Package blindtext Warning: czech not defined, using English instead.
 Package blindtext Warning: czech not defined, using English instead.
 (blindtext)                 on input line 78.
 
-[10
+[11
 
 ]
 
@@ -912,7 +922,7 @@ Package blindtext Warning: czech not defined, using English instead.
 (blindtext)                 on input line 78.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-[11]
+[12]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (manual-tulthesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 82.
@@ -920,12 +930,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 82.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 22811 strings out of 428408
- 398969 string characters out of 3160623
+ 22814 strings out of 428408
+ 399013 string characters out of 3160623
  448475 words of memory out of 3000000
  26051 multiletter control sequences out of 15000+200000
  9718 words of font info for 58 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  43i,11n,54p,10428b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on manual-tulthesis.pdf (11 pages).
+Output written on manual-tulthesis.pdf (12 pages).
